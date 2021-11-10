@@ -1,0 +1,6 @@
+alias shareAudio=' pactl load-module module-null-sink sink_name=inputs sink_properties=device.description=INPUT; pactl load-module module-loopback sink=inputs; pactl load-module module-loopback sink=inputs;'
+alias greet=' fortune | cowsay -f tux;'
+alias lt='ls --human-readable --size -1 -S --classify'
+alias gh='history|grep'
+alias leftOff='ls -t -1'
+alias countFiles='find . -type f | wc -l'
