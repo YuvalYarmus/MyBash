@@ -1,3 +1,4 @@
+alias python=' python3'
 alias shareAudio=' pactl load-module module-null-sink sink_name=inputs sink_properties=device.description=INPUT; pactl load-module module-loopback sink=inputs; pactl load-module module-loopback sink=inputs;'
 alias greet=' fortune | cowsay -f tux;'
 alias lt='ls --human-readable --size -1 -S --classify'
@@ -25,3 +26,7 @@ alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
+
+# my functions
+alias cl='cl'
+alias cla='cla'
