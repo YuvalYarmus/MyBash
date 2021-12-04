@@ -18,6 +18,7 @@ alias sha1='openssl sha1'
 
 ## get rid of command not found ##
 alias cd..='cd ..'
+alias cls='clear'
  
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
@@ -30,3 +31,4 @@ alias .5='cd ../../../../..'
 # my functions
 alias cl='cl'
 alias cla='cla'
+alias cl2='cl2'
