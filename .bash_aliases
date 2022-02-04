@@ -1,6 +1,13 @@
 alias python=' python3'
 alias shareAudio=' pactl load-module module-null-sink sink_name=inputs sink_properties=device.description=INPUT; pactl load-module module-loopback sink=inputs; pactl load-module module-loopback sink=inputs;'
+
+## different greetings (mostly to remember what I have)
 alias greet=' fortune | cowsay -f tux;'
+alias greeto=' fortune -o | cowsay -f tux;'
+alias lolcatgreet='fortune | cowsay -f tux | lolcat;'
+# custom made toxic fortune cookie from https://github.com/grissius/offensive-fortune
+alias toxicg='fortune /usr/share/games/fortunes/off/toxic | cowsay -f tux | lolcat;'
+
 alias lt='ls --human-readable --size -1 -S --classify'
 alias gh='history|grep'
 alias leftOff='ls -t -1'
@@ -32,3 +39,10 @@ alias .5='cd ../../../../..'
 alias cl='cl'
 alias cla='cla'
 alias cl2='cl2'
+
+
+## Nand2Tetris
+# shortcut for Hardware Simulator
+alias hws='/home/yuvalyarmus/Shared/Nand2Tetris/nand2tetris/tools/HardwareSimulator.sh'
+# matrix theme in the terminal
+alias cmatrix='cmatrix'
